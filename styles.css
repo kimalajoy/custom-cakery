@@ -25,12 +25,8 @@ a {
   text-decoration: none;
 }
 
-a:focus {
-  /* outline: none !important; */
-}
-
 form {
-  background-color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, 0.85);
   margin-bottom: 25px;
   padding: 25px;
   width: 600px;
@@ -39,10 +35,6 @@ form {
 
 input[type="text"], input[type="number"], textarea {
   width: 100%;
-}
-
-input:focus {
-  /* outline: none!important; */
 }
 
 button {
@@ -87,8 +79,8 @@ h4 {
 
 .hamburger {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
 }
 
 .close {
@@ -136,7 +128,12 @@ h4 {
   text-align: center;
   height: 50px;
   flex-shrink: 0;
-  color: #333333;
+  color: #000000;
+}
+
+.footer img {
+  height: 10px;
+  color: #000000;
 }
 
 /********************************* LANDING PAGE *********************************/
