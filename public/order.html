@@ -40,51 +40,51 @@
         </a>
       </div>
       <form>
-        <label role="form" aria-label="Name">Name: </label>
-        <input required type="text">
-        <label role="form" aria-label="Address">Address:</label>
-        <input required type="text">
-        <label role="form" aria-label="Email">Email Address:</label>
-        <input required type="text">
-        <label role="form" aria-label="Phone Number">Phone Number:</label>
-        <input required type="number">
-        <label role="radio" aria-label="Desired Cake">Desired Cake</label>
+        <label for="name" role="form" aria-label="Name">Name: </label>
+        <input name="name" required type="text">
+        <label for="address" role="form" aria-label="Address">Address:</label>
+        <input name="address" required type="text">
+        <label for="email" role="form" aria-label="Email">Email Address:</label>
+        <input name="email" required type="text">
+        <label for="phone number" role="form" aria-label="Phone Number">Phone Number:</label>
+        <input name="phone number" required type="number">
+        <label for="cake" role="radio" aria-label="Desired Cake">Desired Cake</label>
         <input type="radio" name="cake">Whole Cake
         <input type="radio" name="cake">1/2 Dozen Cupcakes
         <input type="radio" name="cake">1 Dozen Cupcakes
         <input type="radio" name="cake" checked>Other
-        <label role="radio" aria-label="Cake Shape">Cake Shape (excludes cupcakes)</label>
+        <label for="shape" role="radio" aria-label="Cake Shape">Cake Shape (excludes cupcakes)</label>
         <input type="radio" name="shape">Circle
         <input type="radio" name="shape">Square
         <input type="radio" name="shape">Rectangle
         <input type="radio" name="shape" checked>Other
-        <label role="radio" aria-label="Desired Writing">Do You Want Writing?</label>
+        <label for="words" role="radio" aria-label="Desired Writing">Do You Want Writing?</label>
         <input type="radio" name="words" checked>Yes
         <input type="radio" name="words">No
-        <label role="form" aria-label="Text for cake message">If you selected "writing," please indicate text here: </label>
-        <input type="text" placeholder="cake text">
-        <label>Flavor(s)</label>
-        <input type="checkbox" checked value="chocolate">Chocolate
-        <input type="checkbox" checked value="vanilla">Vanilla
-        <input type="checkbox" checked value="fruit">Fruit
-        <input type="checkbox" checked value="other">Other
-        <label>Filling(s)</label>
-        <input type="checkbox" checked value="vanilla">Vanilla
-        <input type="checkbox" checked value="chocolate">Chocolate
-        <input type="checkbox" checked value="fruit">Fruit
-        <input type="checkbox" checked value="other">Other
-        <label>Frosting(s)</label>
-        <input type="checkbox" checked value="fruit">Fruit
-        <input type="checkbox" checked value="chocolate">Chocolate
-        <input type="checkbox" checked value="vanilla">Vanilla
-        <input type="checkbox" checked value="other">Other
-        <label>Topping(s)</label>
-        <input type="checkbox" checked value="chocolate">Chocolate Shavings
-        <input type="checkbox" checked value="vanilla">Sprinkles
-        <input type="checkbox" checked value="fruit">Fruit
-        <input type="checkbox" checked value="other">Other
-        <label>Approx. How Many People Should Cake Feed?</label>
-        <select name="" id="">
+        <label for="message" role="form" aria-label="Text for cake message">If you selected "writing," please indicate text here: </label>
+        <input name="message" type="text" placeholder="cake text">
+        <label for="flavors" >Flavor(s)</label>
+        <input name="flavors" type="checkbox" checked value="chocolate">Chocolate
+        <input name="flavors" type="checkbox" checked value="vanilla">Vanilla
+        <input name="flavors" type="checkbox" checked value="fruit">Fruit
+        <input name="flavors" type="checkbox" checked value="other">Other
+        <label for="fillings" >Filling(s)</label>
+        <input name="fillings" type="checkbox" checked value="vanilla">Vanilla
+        <input name="fillings" type="checkbox" checked value="chocolate">Chocolate
+        <input name="fillings" type="checkbox" checked value="fruit">Fruit
+        <input name="fillings" type="checkbox" checked value="other">Other
+        <label for="frosting" >Frosting(s)</label>
+        <input name="frosting" type="checkbox" checked value="fruit">Fruit
+        <input name="frosting" type="checkbox" checked value="chocolate">Chocolate
+        <input name="frosting" type="checkbox" checked value="vanilla">Vanilla
+        <input name="frosting" type="checkbox" checked value="other">Other
+        <label for="toppings" >Topping(s)</label>
+        <input name="toppings" type="checkbox" checked value="chocolate">Chocolate Shavings
+        <input name="toppings" type="checkbox" checked value="vanilla">Sprinkles
+        <input name="toppings" type="checkbox" checked value="fruit">Fruit
+        <input name="toppings" type="checkbox" checked value="other">Other
+        <label for="size" >Approx. How Many People Should Cake Feed?</label>
+        <select name="size" id="">
           <option value="1-10">1 - 10</option>
           <option value="10-20">10 - 20</option>
           <option value="10-20">20 - 30</option>
